@@ -19,9 +19,9 @@ Here you can find documentation to get you started with your first project: http
 All of the code you're going to edit is located in /src/. From there it's broken into a few logical directories.
 
 - /src
-* /components     React components
-* /pages          React pages for routing
-* /styles         All your styling
+    - /components     React components
+    - /pages          React pages for routing
+    - /styles         All your styling
 
 ## Dependencies
 - NodeJS `V16 or above`
