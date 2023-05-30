@@ -30,7 +30,7 @@ All of the code you're going to edit is located in /src/. From there it's broken
 
 ## Installation
 
-###Install dependencies
+### Install dependencies
 Run the following command to install all npm/yarn dependencies
 ```
 npm install
@@ -40,7 +40,7 @@ Or
 yarn install
 ```
 
-###To run locally use:
+### To run locally use:
 ```
 npm run dev
 ```
@@ -49,7 +49,7 @@ Or
 yarn dev
 ```
 
-###To build assets use:
+### To build assets use:
 ```
 npm run build
 ```
