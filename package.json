@@ -1,0 +1,32 @@
+{
+  "name": "@timdegier/react-wordpress-starter",
+  "description": "React WordPress starter theme with the generouted React router and Vite.",
+  "author": "Tim de Gier",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@generouted/react-router": "^1.12.8",
+    "@wordpress/i18n": "^4.33.0",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-meta-tags": "^1.0.1",
+    "react-router-dom": "6.11.0",
+    "sass": "^1.62.1",
+    "vite-plugin-css-injected-by-js": "^3.1.1",
+    "vite-plugin-sass-glob-import": "^2.0.0",
+    "vite-plugin-singlefile": "^0.13.5",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "*",
+    "vite": "^4.3.3",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}

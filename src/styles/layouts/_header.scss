@@ -1,0 +1,25 @@
+.header {
+    padding-block: 32px;
+    background-color: $color-white;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: flex-end;
+
+        a {
+            color: #000;
+
+            &.active {
+
+                color: #999;
+            }
+        }
+    }
+}
