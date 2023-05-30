@@ -9,24 +9,34 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/eslint-parser": "^7.21.8",
+    "@babel/preset-react": "^7.22.3",
     "@generouted/react-router": "^1.12.8",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@vitejs/plugin-react": "^4.0.0",
     "@wordpress/i18n": "^4.33.0",
+    "babel-eslint": "^10.1.0",
     "bootstrap": "^5.2.3",
+    "eslint": "8.22.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-meta-tags": "^1.0.1",
     "react-router-dom": "6.11.0",
     "sass": "^1.62.1",
-    "vite-plugin-css-injected-by-js": "^3.1.1",
-    "vite-plugin-sass-glob-import": "^2.0.0",
-    "vite-plugin-singlefile": "^0.13.5",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.1",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@vitejs/plugin-react": "^4.0.0",
-    "prettier": "^2.8.8",
     "typescript": "*",
+    "typescript-eslint": "^0.0.1-alpha.0",
     "vite": "^4.3.3",
-    "vite-plugin-eslint": "^1.8.1"
+    "vite-plugin-css-injected-by-js": "^3.1.1",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-sass-glob-import": "^2.0.0",
+    "vite-plugin-singlefile": "^0.13.5"
+  },
+  "devDependencies": {
+    "eslint-plugin-autofix": "^1.1.0"
   }
 }

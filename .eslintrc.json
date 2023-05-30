@@ -1,3 +1,17 @@
 {
-    "extends": "react-app"
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "fix": true,
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    },
+    "sourceType": "module",
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
 }
