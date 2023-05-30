@@ -35,8 +35,5 @@
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-sass-glob-import": "^2.0.0",
     "vite-plugin-singlefile": "^0.13.5"
-  },
-  "devDependencies": {
-    "eslint-plugin-autofix": "^1.1.0"
   }
 }
